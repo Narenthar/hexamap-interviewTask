@@ -26,7 +26,7 @@ const ToDoForm = ({ onAddTask }) => {
   return (
     <Row>
       <Col md={12}>
-        <Form className="d-flex justify-content-center">
+        <Form className="d-flex align-items-center justify-content-center">
           <Form.Group className="mx-2">
             <Form.Control
               type="text"
