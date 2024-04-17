@@ -36,7 +36,7 @@ onDeleteTask,
                   <span className="mx-2">{task.duration} s</span>
                   {activeTask && activeTask.id === task.id ? (
                     activeTask.isActive ? (
-                      <Button className="mx-2" variant="secondary" onClick={onPauseTask}>
+                      <Button className="mx-2" variant="secondary" onClick={onPauseTask} style={{ width: '80px' }}>
                         Pause
                       </Button>
                     ) : (
